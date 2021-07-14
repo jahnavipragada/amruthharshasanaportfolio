@@ -24,8 +24,8 @@ if(randomNumber1>randomNumber2){
   document.querySelector("h2").innerHTML = "Player1 WON";
 }
 else if (randomNumber2>randomNumber1) {
-  document.querySelector("h2").innerHTML =  "Player2 WON🔥";
+  document.querySelector("h2").innerHTML =  "Player2 WON";
 }
 else{
-  document.querySelector("h2").innerHTML ="  DRAW🌝";
+  document.querySelector("h2").innerHTML ="  DRAW";
 }
