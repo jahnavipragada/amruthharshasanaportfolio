@@ -1,0 +1,286 @@
+<!-- 
+  Hello 😊.
+
+  This template is designed and developed by Nisar Hassan Naqvi
+  for anyone to use for free or customize the way they like.
+
+  Github Repo: https://github.com/nisarhassan12/portfolio-template/
+  My Website: https://nisar.dev
+
+  For business & inquires, contact me => syednisarhassan12@gmail.com
+-->
+
+<!--
+  Follow the instructions written in comments to create your stunning portfolio
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <!-- Put your site title here -->
+  <title>
+    Amruth Portfolio
+  </title>
+
+  <meta name="description" content="Add small description of yourslef.">
+  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+  <meta name="keywords" content="Put your name, skills and some coding keywords" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+          <li class="nav__item">
+            <a href="#experi" class="nav__link">Experience</a>
+          </li>
+          
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <!-- Replace the following name with your name -->
+          <span>Sana Amruth Harsha</span>
+        </h1>
+        <!-- Put a small paragraph about yourself -->
+        <p>A passionate Machine Learning and Deep Learning researcher from IIT Bhubaneswar</p>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Work ***** -->
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p>
+              I am a final year B.Tech undergraduate studying Electrical Engineering at IIT Bhubaneswar, passionate about Machine learning and Deep Learning. I am familiar with NumPy, Pandas, Keras, TensorFlow, PyTorch, Scikit-learn. I have participated in Kaggle competitions and ML hackathons to get the coding experience on
+Machine Learning real-life problems. Recently I completed an internship at Ceremorphic as a Machine Learning Processor Design role.
+            </p>
+            <!-- Provide a link to your resume -->
+            <a href="https://drive.google.com/file/d/1zD6Z9ioSCTQMP22d_yyIoJVySQbcvhkI/view?usp=sharing" class="btn">My Resume</a>
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" height=700 src="./images/sana.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My Projects</h2>
+        <div class="work__boxes">
+
+          <!-- Each div with the work__box class is a project. -->
+
+          <div class="work__bo">
+            <div class="work__tex">
+              <h3>Handwritten Digit Recognition</h3>
+              <p>
+                Both CNN and ANN models are implemented using Keras. CNN with 98.7% accuracy performed quite better than ANN which have 95.6 accuracy.
+              </p>
+              <ul class="work__list">
+                <li>Python</li>
+                <li>Keras</li>
+                <li>Matplotlib</li>
+                <li>Adam Optimizer</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/SanaAmruth" target="_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/SanaAmruth/MyML/tree/master/ANN_CNN_study" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+
+          </div>
+          <br>
+          <br>
+          <div class="work__bo">
+            <div class="work__tex">
+              <h3>Bank Customer Segmentation</h3>
+              <p>
+                Boiled down the bank customers into an accurate number of segments for the better implementation of market strategies using KMeans Clustering technique.
+              </p>
+              <ul class="work__list">
+                <li>Python</li>
+                <li>Numpy</li>
+                <li>Pandas</li>
+                <li>PCA</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/SanaAmruth" target="_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/SanaAmruth/MyML/tree/master/Customer_segmentation" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+
+          </div>
+          <br>
+          <br>
+          <div class="work__bo">
+            <div class="work__tex">
+              <h3>Credit Card Fraud Detection</h3>
+              <p>
+                Both Local outlier factor method and Isolation factor method are applied on labelled kaggle dataset and found their F1 scores of outlier data points to be 0.02 and 0.26 respectively.
+              </p>
+              <ul class="work__list">
+                <li>Python</li>
+                <li>Scikit-learn</li>
+                <li>Numpy</li>
+                <li>Pandas</li>
+                <li>Scipy</li>
+                <li>Seaborn</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/SanaAmruth" target="_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/SanaAmruth/MyML/tree/master/Credit_card_fraud_detection" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+
+          </div>
+          <br>
+          <br>
+          <div class="work__bo">
+            <div class="work__tex">
+              <h3>Titanic Tragedy</h3>
+              <p>
+                Predicted the passengers’ likelihood of survival in Titanic tragedy after the disaster on a labeled dataset using voting classifier on Decision Tree, Logistic Regression, Support Vector Machine.
+              </p>
+              <ul class="work__list">
+                <li>Python</li>
+                <li>Scikit-learn</li>
+                <li>Numpy</li>
+                <li>Pandas</li>
+                <li>Matplotlib</li>
+                <li>Seaborn</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/SanaAmruth" target="_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/SanaAmruth/MyML/tree/master/Titanic%20Tragedy" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- ***** About ***** -->
+
+    
+  </main>
+
+
+  <section class="contact" id="experi">
+    <div class="row">
+      <h2>Experiences</h2>
+      <div class="contact__ino">
+        <h3>ML processor design internship at Ceremorphic</h3>
+        <p>
+          I worked as a part of the Deep Learning Research team. Our team aims to find a way that avoids the dense layer computation in Convolutional Neural Networks. I thought a new method could be replacing some kernels with 1x1 kernels and finally replacing the whole fully connected layers with Global Average Pooling and then fed into softmax directly. I have implemented the whole theory by working with VGG16, VGG19 on cifar10 first and then moved on to Resnet50 on the Imagenet dataset. Every updated model worked better than the state of the art model.
+        </p>
+        
+      </div>
+    </div>
+  </section>
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          Feel free to contact me incase of any queries through my email id mentioned below.
+        </p>
+        <!-- Replace the email with yours -->
+        <a href="mailto:amruthharshasana@gmail.com" class="btn">amruthharshasana@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://github.com/SanaAmruth" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://codepen.io/sana_codes" title="Link to Codepen Profile">
+            <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href=https://www.linkedin.com/in/amruth-harsha-sana-4142971b2/">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+
+      <p>
+        &copy; 2021 - Template designed & developed by Sana Amruth Harsha.
+      </p>
+
+        
+
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
